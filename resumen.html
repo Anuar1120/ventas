@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen Diario - Laboratorio Ventas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <main class="card" aria-labelledby="table-title">
+        <header class="card-header">
+            <nav style="margin-bottom: 1rem; display: flex; gap: 1rem;">
+                <a href="index.html">Ventas</a>
+                <a href="clientes.html">Clientes</a>
+                <a href="productos.html">Productos</a>
+                <a href="detalle_venta.html">Detalle Venta</a>
+                <a href="resumen.html"><strong>Resumen Diario</strong></a>
+            </nav>
+            <h1 class="table-title">Resumen de Ventas Diarias</h1>
+        </header>
+        <div class="card-body">
+            <div class="toolbar"></div>
+            <div class="table-container" role="region" aria-label="Resumen Diario" tabindex="0">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Total Ventas</th>
+                            <th>Monto Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-footer"></div>
+        </div>
+    </main>
+    <script src="./js/resumen.js"></script>
+</body>
+
+</html>
